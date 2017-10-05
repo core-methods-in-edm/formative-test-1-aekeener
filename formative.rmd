@@ -1,0 +1,31 @@
+---
+title: "formative.rmd"
+author: "abbey"
+date: "10/5/2017"
+output: html_document
+---
+
+#Q4
+```{}
+D1<-read.csv("/Users/abbeykeener/Downloads/HMXPC13_DI_v2_5-14-14.csv", header=TRUE)
+
+```
+
+#Q6-7
+```{}
+result <- filter(D1,course_id == "HarvardX/CS50x/2012" & certified==1)
+result
+result <- filter(D1,course_id == "HarvardX/CS50x/2012" & start_time_DI==2012-10-15)
+result
+```
+
+#Q8
+```{}
+D2<-D1[c("userid_DI", "start_time_DI", "final_cc_cname_DI")]
+D2<-filter(D2, final_cc_cname_DI == "Brazil")
+```
+
+#Q9
+```{}
+  
+```
