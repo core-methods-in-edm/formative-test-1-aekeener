@@ -12,11 +12,11 @@ Please follow the directions below and submit your answers by 5pm EST, Thursday 
 
 4. Upload the MITx/Harvardx dataset to R as a dataframe named `D1`(Please inlcude your code in your markdown document)
 
-5. What does the `DI` suffix that is appeneded to two of the variable names mean?
+5. What does the `DI` suffix that is appeneded to two of the variable names mean? De-Identified 
 
-6. How many people enrolled in HarvardX/CS50x recieved certification in 2012? (Please inlcude your code in your markdown document)
+6. How many people enrolled in HarvardX/CS50x recieved certification in 2012? (Please inlcude your code in your markdown document) 1287
 
-7. How many people registered for HarvardX/CS50x from Columbia on October 15, 2012? (Please inlcude your code in your markdown document)
+7. How many people registered for HarvardX/CS50x from Columbia on October 15, 2012? (Please inlcude your code in your markdown document) none
 
 8. Create a new data frame (`D2`) that includes student ID and registration date for all students from a country of your choice (Please inlcude your code in your markdown document)
 
